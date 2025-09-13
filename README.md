@@ -24,6 +24,72 @@
 ## 目次
 
 | チャプター  | 推定所要時間 | ノートブック  |
+|---|---|---|
+| Chapter 00: Start Tutorial      | 1〜2時間 | [![Colabで開く]() |
+| Chapter 01: Transformer      | 1〜2時間 | [![Colabで開く]() |
+| Chapter 02: VisionTransformer     | 1〜2時間 | [![Colabで開く]() |
+| Chapter 00: VisionTransformer     | 1〜2時間 | [![Colabで開く]() |
+
+
+
+###関連図
+## Chapters dependency graph (Ch2–10)
+
+```mermaid
+%%{init: {'theme':'neutral','themeVariables':{'fontSize':'14px'}}}%%
+graph TD
+  %% -------- Groups --------
+  subgraph Foundations[Foundations_基礎]
+    ch1[Ch1 Transformer 基礎]
+    ch2[Ch2 Vision Transformer]
+    ch3[Ch3 画像キャプション<br/>Enc-Dec 条件生成]
+    ch7[Ch7 CLIP_画像×テキスト]
+  end
+
+  subgraph DiffusionCore[Diffusion Core_中核]
+    ch4[Ch4 無条件 Diffusion_DDPM]
+    ch5[Ch5 条件付き Diffusion + CFG]
+    ch6[Ch6 画質・高速化 DDIM/EMAなど]
+  end
+
+  subgraph Latent&SD[Latent & Integration]
+    ch8[Ch8 Latent Diffusion_VAE + 潜在U-Net]
+    ch9[Ch9 Stable Diffusion_統合]
+  end
+
+  %% -------- Strong dependencies (solid) --------
+  ch1 --> ch2
+  ch1 --> ch3
+  ch1 --> ch7
+
+  ch4 --> ch5
+  ch4 --> ch6
+  ch5 --> ch6
+
+  ch4 --> ch8
+  ch6 --> ch9
+  ch7 --> ch5
+  ch7 --> ch9
+  ch8 --> ch9
+
+  %% -------- Helpful but optional (dashed) --------
+  ch2 -. 画像エンコーダ/注意ブロック理解 .-> ch3
+  ch3 -. 条件生成の考え方 .-> ch5
+  ch4 -. Visionの設計感覚 .-> ch6
+  ch5 -. 条件付きの流儀 .-> ch8
+
+  %% -------- Legend --------
+  subgraph Legend[凡例 / Legend]
+    l1a(( )) -- 強い依存（実線） --> l1b(( ))
+    l2a(( )) -. 補強（点線） .-> l2b(( ))
+  end
+
+  %% -------- Styling --------
+  classDef core fill:#e6f7ff,stroke:#246,stroke-width:1.2px;
+  classDef base fill:#f8f8f8,stroke:#999,stroke-width:1px,stroke-dasharray: 3 2;
+  class ch4,ch5,ch6,ch8,ch9 core;
+  class ch1,ch2,ch3,ch7 base;
+  style Legend fill:#fffaf0,stroke:#ccc,stroke-dasharray: 3 2;
 
 
 
