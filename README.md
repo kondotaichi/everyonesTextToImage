@@ -28,9 +28,13 @@
 | Chapter 00: Start Tutorial      | 1〜2時間 | [![Colabで開く]() |
 | Chapter 01: Transformer      | 1〜2時間 | [![Colabで開く]() |
 | Chapter 02: VisionTransformer     | 1〜2時間 | [![Colabで開く]() |
-| Chapter 00: VisionTransformer     | 1〜2時間 | [![Colabで開く]() |
-
-
+| Chapter 03: エンコーダ・デコーダによる画像キャプション   | 1〜2時間 | [![Colabで開く]() |
+| Chapter 04: 無条件diffusion  | 1〜2時間 | [![Colabで開く]() |
+| Chapter 05: 条件つきdiffusion とCFG  | 1〜2時間 | [![Colabで開く]() |
+| Chapter 06: 高品質・高速化  | 1〜2時間 | [![Colabで開く]() |
+| Chapter 07: CLIP（画像・テキストの対照学習）  | 1〜2時間 | [![Colabで開く]() |
+| Chapter 08: Latent Diffusion 潜在空間を利用したdiffusion  | 1〜2時間 | [![Colabで開く]() |
+| Chapter 08: Stable Diffusion  | 1〜2時間 | [![Colabで開く]() |
 
 ###関連図
 ## Chapters dependency graph (Ch2–10)
