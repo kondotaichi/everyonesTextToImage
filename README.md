@@ -90,7 +90,7 @@ graph TD
   class ch4,ch5,ch6,ch8,ch9 core;
   class ch1,ch2,ch3,ch7 base;
   style Legend fill:#fffaf0,stroke:#ccc,stroke-dasharray: 3 2;
-
+```
 
 
 ## **デモ出力例**
