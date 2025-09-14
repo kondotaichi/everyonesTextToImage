@@ -20,7 +20,7 @@
 この場を借りて、心から感謝します。
 
 ---
-
+everyonesTextToImage/notebooks/todo/chapter01_transformer.ipynb
 ## 目次
 
 | チャプター  | 推定所要時間 | ノートブック  |
