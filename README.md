@@ -20,12 +20,11 @@
 この場を借りて、心から感謝します。
 
 ---
-everyonesTextToImage/notebooks/todo/chapter01_transformer.ipynb
 ## 目次
 
 | チャプター  | 推定所要時間 | ノートブック  |
 |---|---|---|
-| Chapter 00: Start Tutorial      | 1〜2時間 | [![Colabで開く]() |
+| Chapter 00: Start Tutorial      | 1〜2時間 | [![Colabで開く](https://colab.research.google.com/github.com/kondotaichi/everyonesTextToImage/blob/main/notebooks/todo/chapter01_transformer.ipynb) |
 | Chapter 01: Transformer      | 1〜2時間 | [![Colabで開く]() |
 | Chapter 02: VisionTransformer     | 1〜2時間 | [![Colabで開く]() |
 | Chapter 03: エンコーダ・デコーダによる画像キャプション   | 1〜2時間 | [![Colabで開く]() |
