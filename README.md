@@ -26,7 +26,7 @@
 |---|---|---|
 | Chapter 00: Start Tutorial      | 1〜2時間 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kondotaichi/everyonesTextToImage/blob/main/notebooks/todo/chapter01_transformer.ipynb) |
 | Chapter 01: Transformer      | 1〜2時間 | [![Colabで開く]() |
-| Chapter 02: VisionTransformer     | 1〜2時間 | [![Colabで開く]() |
+| Chapter 02: VisionTransformer     | 1〜2時間 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kondotaichi/everyonesTextToImage/blob/main/notebooks/todo/chapter01_transformer.ipynb) |
 | Chapter 03: エンコーダ・デコーダによる画像キャプション   | 1〜2時間 | [![Colabで開く]() |
 | Chapter 04: 無条件diffusion  | 1〜2時間 | [![Colabで開く]() |
 | Chapter 05: 条件つきdiffusion とCFG  | 1〜2時間 | [![Colabで開く]() |
